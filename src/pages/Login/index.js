@@ -1,11 +1,12 @@
 import React from 'react';
-import { Title } from './styled';
+import { Title, Paragrafo } from './styled';
 
 export default function Login() {
   return (
-    <Title isRed={false}>
+    <Title>
       Login
-      <small>oie</small>
+      <small>oi</small>
+      <Paragrafo>Lorem Ipsum</Paragrafo>
     </Title>
   );
 }
