@@ -2,14 +2,14 @@ import styled, { createGlobalStyle } from 'styled-components';
 import { primaryColor, primaryDarkColor } from '../config/colors';
 
 export default createGlobalStyle`
-  *{
+  * {
     margin: 0;
-    padding:0;
+    padding: 0;
     outline: none;
     box-sizing: border-box;
   }
 
-  body{
+  body {
     font-family: -apple-system, sans-serif;
     background: ${primaryDarkColor};
     color: ${primaryColor};
@@ -32,6 +32,7 @@ export default createGlobalStyle`
 
   button:hover {
     border-radius: 4px;
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.2);
   }
 
   a {
