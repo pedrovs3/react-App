@@ -10,7 +10,7 @@ export default function Login() {
         Login
         <small>oi</small>
         <Paragrafo>Lorem Ipsum</Paragrafo>
-        <a href="#">asdads</a>
+        <button type="button">Enviar</button>
       </Title>
     </Container>
   );
